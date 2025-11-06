@@ -1,10 +1,79 @@
-body{
-    text-align: left;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(241, 241, 241);
+  margin: 0;
+  padding: 0;
 }
-button{
-    color: bl;
-    cursor:pointer;
+
+header {
+  background-color: #5a8ec2ea;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0px;
 }
+.searchsection {
+  margin-top: 10px;
+  display: block;
+  gap: 24px;
+  width: 100%;
+
+
+
+}
+.searchsection label {
+  margin-bottom: 10px;
+  display:block;
+  width:100%;
+
+}
+
+.searchbox {
+  display: flex;
+  margin-top: 10px;
+  width:100%;
+}
+
+input[type="text"] {
+  font-size: 20px;
+
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left:0px;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 20px;
+  color: rgb(189, 9, 9);
+}
+#searchtxt{
+  width:100%;
+  font-size: 16px;
+  padding:10px;
+  display:block;
+
+
+}
+
+#result {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+

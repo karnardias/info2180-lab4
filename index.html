@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, inital-scale= 1.0 ">
-        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
-        <title>INFO2180 Lab 4</title>
-        <title>Superhero</title>
-        <link rel="stylesheet"href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Avengers Character Search </h1>
-        </header>
-        <button id = "searchbutton">SEARCH </button>
-        <script src = "app.js"></script>
-        <footer>
-            <p> Copyrigth &copy ; 2025 Karnardia Simpson</p>
-        </footer>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INFO2180 Lab 4 - Superhero Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>AVENGERS CHARACTER SEARCH</h1>
+  </header>
+
+  <div class="searchsection">
+    <label for="searchtxt">Search by Full Name or Alias</label>
+    <div class="searchbox">
+      <input type="text" id="searchtxt" placeholder="e.g. Captain America or Steve Rogers">
+      <button id="searchbutton">Search</button>
+    </div>
+  </div>
+  <h2>RESULT</h2>
+  <hr>
+  <div id="result"></div>
+
+  <footer>
+    <p> Copyrigth &copy ; 2025 Karnardia Simpson</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
 </html>
